@@ -425,12 +425,8 @@ namespace Prototipo7
                 MessageBox.Show("¡Seleccione una cantidad de bebidas!", "Pizza Turbo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
-            else if (cboCantidadPostres.Text == "0")
-            {
-                MessageBox.Show("¡Seleccione una cantidad de postres!", "Pizza Turbo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
 
-            else if (cboBebidas.Text == "Ninguna" || cboPostres.Text == "Ninguno")
+            else if (cboBebidas.Text == "Ninguna" || cboPostres.Text == "Ninguno" && cboCantidadPostres.Text == "0")
             {
                 SubTotalPizza();
                 SubTotalBebida();
@@ -440,6 +436,14 @@ namespace Prototipo7
                 lblInsertarPedidos.Visible = true;
             }
 
+           
+
+            else if (cboCantidadPostres.Text == "0")
+            {
+                MessageBox.Show("¡Seleccione una cantidad de postres!", "Pizza Turbo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+           
            
 
             else

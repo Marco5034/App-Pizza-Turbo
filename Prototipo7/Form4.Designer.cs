@@ -128,6 +128,7 @@
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(566, 260);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(234, 126);
@@ -137,6 +138,7 @@
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(304, 260);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(234, 126);
@@ -146,6 +148,7 @@
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(28, 260);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(234, 126);
@@ -159,29 +162,29 @@
             this.label6.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(583, 402);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(237, 20);
+            this.label6.Size = new System.Drawing.Size(202, 20);
             this.label6.TabIndex = 68;
-            this.label6.Text = "Dos pizza gigantes 20.50$";
+            this.label6.Text = "Pizza Suprema $12.50";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(281, 402);
+            this.label7.Location = new System.Drawing.Point(328, 402);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(265, 20);
+            this.label7.Size = new System.Drawing.Size(217, 20);
             this.label7.TabIndex = 67;
-            this.label7.Text = "Pizza con palitroques  15.80$";
+            this.label7.Text = "Pizza Vegetariana $9.00";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(6, 402);
+            this.label8.Location = new System.Drawing.Point(50, 402);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(261, 20);
+            this.label8.Size = new System.Drawing.Size(199, 20);
             this.label8.TabIndex = 66;
-            this.label8.Text = "Pizza cuatro estaciones 20.0$";
+            this.label8.Text = "Pizza Hawaiana $7.50";
             // 
             // button3
             // 
@@ -227,6 +230,7 @@
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(566, 53);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(234, 126);
@@ -236,6 +240,7 @@
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(304, 53);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(234, 126);
@@ -245,6 +250,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(28, 53);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(234, 126);
@@ -258,29 +264,29 @@
             this.label3.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(583, 195);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(237, 20);
+            this.label3.Size = new System.Drawing.Size(218, 20);
             this.label3.TabIndex = 59;
-            this.label3.Text = "Dos pizza gigantes 20.50$";
+            this.label3.Text = "Pizza de Peperoni $5.00";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(281, 195);
+            this.label2.Location = new System.Drawing.Point(328, 195);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(265, 20);
+            this.label2.Size = new System.Drawing.Size(192, 20);
             this.label2.TabIndex = 58;
-            this.label2.Text = "Pizza con palitroques  15.80$";
+            this.label2.Text = "Pizza de queso $4.50";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 195);
+            this.label1.Location = new System.Drawing.Point(40, 195);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(261, 20);
+            this.label1.Size = new System.Drawing.Size(197, 20);
             this.label1.TabIndex = 57;
-            this.label1.Text = "Pizza cuatro estaciones 20.0$";
+            this.label1.Text = "Pizza de Jamon $5.00";
             // 
             // label4
             // 

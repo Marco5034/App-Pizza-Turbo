@@ -37,12 +37,12 @@
             this.PanelregistroSubMenu = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.PanelmenuSubMenu = new System.Windows.Forms.Panel();
+            this.Entradas = new System.Windows.Forms.Button();
+            this.Promociones = new System.Windows.Forms.Button();
+            this.Menu = new System.Windows.Forms.Button();
             this.Desplegar = new System.Windows.Forms.Button();
             this.panelChildForm = new System.Windows.Forms.Panel();
-            this.Menu = new System.Windows.Forms.Button();
-            this.Promociones = new System.Windows.Forms.Button();
-            this.Entradas = new System.Windows.Forms.Button();
-            this.PanelmenuSubMenu = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.PanelregistroSubMenu.SuspendLayout();
             this.PanelmenuSubMenu.SuspendLayout();
@@ -145,6 +145,62 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // PanelmenuSubMenu
+            // 
+            this.PanelmenuSubMenu.BackColor = System.Drawing.Color.White;
+            this.PanelmenuSubMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PanelmenuSubMenu.Controls.Add(this.Entradas);
+            this.PanelmenuSubMenu.Controls.Add(this.Promociones);
+            this.PanelmenuSubMenu.Controls.Add(this.Menu);
+            this.PanelmenuSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PanelmenuSubMenu.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.PanelmenuSubMenu.Location = new System.Drawing.Point(0, 31);
+            this.PanelmenuSubMenu.Name = "PanelmenuSubMenu";
+            this.PanelmenuSubMenu.Size = new System.Drawing.Size(190, 121);
+            this.PanelmenuSubMenu.TabIndex = 2;
+            // 
+            // Entradas
+            // 
+            this.Entradas.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Entradas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Entradas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Entradas.Location = new System.Drawing.Point(0, 84);
+            this.Entradas.Name = "Entradas";
+            this.Entradas.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.Entradas.Size = new System.Drawing.Size(188, 36);
+            this.Entradas.TabIndex = 2;
+            this.Entradas.Text = "Postres";
+            this.Entradas.UseVisualStyleBackColor = false;
+            this.Entradas.Click += new System.EventHandler(this.Entradas_Click);
+            // 
+            // Promociones
+            // 
+            this.Promociones.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Promociones.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Promociones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Promociones.Location = new System.Drawing.Point(0, 41);
+            this.Promociones.Name = "Promociones";
+            this.Promociones.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.Promociones.Size = new System.Drawing.Size(188, 43);
+            this.Promociones.TabIndex = 1;
+            this.Promociones.Text = "Bebidas";
+            this.Promociones.UseVisualStyleBackColor = false;
+            this.Promociones.Click += new System.EventHandler(this.Promociones_Click);
+            // 
+            // Menu
+            // 
+            this.Menu.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Menu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Menu.Location = new System.Drawing.Point(0, 0);
+            this.Menu.Name = "Menu";
+            this.Menu.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.Menu.Size = new System.Drawing.Size(188, 41);
+            this.Menu.TabIndex = 0;
+            this.Menu.Text = "Pizzas";
+            this.Menu.UseVisualStyleBackColor = false;
+            this.Menu.Click += new System.EventHandler(this.Menu_Click);
+            // 
             // Desplegar
             // 
             this.Desplegar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(210)))), ((int)(((byte)(88)))));
@@ -170,65 +226,6 @@
             this.panelChildForm.Name = "panelChildForm";
             this.panelChildForm.Size = new System.Drawing.Size(847, 546);
             this.panelChildForm.TabIndex = 4;
-            // 
-            // Menu
-            // 
-            this.Menu.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.Menu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Menu.Location = new System.Drawing.Point(0, 0);
-            this.Menu.Name = "Menu";
-            this.Menu.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.Menu.Size = new System.Drawing.Size(188, 29);
-            this.Menu.TabIndex = 0;
-            this.Menu.Text = "Menu";
-            this.Menu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Menu.UseVisualStyleBackColor = false;
-            this.Menu.Click += new System.EventHandler(this.Menu_Click);
-            // 
-            // Promociones
-            // 
-            this.Promociones.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.Promociones.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Promociones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Promociones.Location = new System.Drawing.Point(0, 29);
-            this.Promociones.Name = "Promociones";
-            this.Promociones.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.Promociones.Size = new System.Drawing.Size(188, 29);
-            this.Promociones.TabIndex = 1;
-            this.Promociones.Text = "Promociones";
-            this.Promociones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Promociones.UseVisualStyleBackColor = false;
-            this.Promociones.Click += new System.EventHandler(this.Promociones_Click);
-            // 
-            // Entradas
-            // 
-            this.Entradas.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.Entradas.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Entradas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Entradas.Location = new System.Drawing.Point(0, 58);
-            this.Entradas.Name = "Entradas";
-            this.Entradas.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.Entradas.Size = new System.Drawing.Size(188, 61);
-            this.Entradas.TabIndex = 2;
-            this.Entradas.Text = "Entradas y bebidas";
-            this.Entradas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Entradas.UseVisualStyleBackColor = false;
-            this.Entradas.Click += new System.EventHandler(this.Entradas_Click);
-            // 
-            // PanelmenuSubMenu
-            // 
-            this.PanelmenuSubMenu.BackColor = System.Drawing.Color.White;
-            this.PanelmenuSubMenu.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PanelmenuSubMenu.Controls.Add(this.Entradas);
-            this.PanelmenuSubMenu.Controls.Add(this.Promociones);
-            this.PanelmenuSubMenu.Controls.Add(this.Menu);
-            this.PanelmenuSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelmenuSubMenu.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.PanelmenuSubMenu.Location = new System.Drawing.Point(0, 31);
-            this.PanelmenuSubMenu.Name = "PanelmenuSubMenu";
-            this.PanelmenuSubMenu.Size = new System.Drawing.Size(190, 121);
-            this.PanelmenuSubMenu.TabIndex = 2;
             // 
             // Form1
             // 
